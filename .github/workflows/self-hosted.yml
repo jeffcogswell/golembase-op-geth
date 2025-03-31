@@ -22,3 +22,9 @@ jobs:
           if [[ "${{ github.ref }}" == "refs/heads/main" ]]; then
             docker push quay.io/golemnetwork/gb-op-geth:latest
           fi
+          # If this is a tag (release), push the image with the tag name
+          if [[ "${{ github.ref }}" == refs/tags/* ]]; then
+            TAG=${GITHUB_REF#refs/tags/}
+            docker tag quay.io/golemnetwork/gb-op-geth:$SHORT_COMMIT quay.io/golemnetwork/gb-op-geth:$TAG
+            docker push quay.io/golemnetwork/gb-op-geth:$TAG
+          fi
