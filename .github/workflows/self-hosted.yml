@@ -3,6 +3,8 @@ name: Self-hosted runner
 on:
   push:
   workflow_dispatch:
+  release:
+    types: [published]
 
 jobs:
   build:
