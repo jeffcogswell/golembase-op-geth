@@ -13,9 +13,10 @@ import (
 	"github.com/ethereum/go-ethereum/rlp"
 )
 
-func (w *World) DeleteEntity(
+func (w *World) ExtendTTL(
 	ctx context.Context,
 	key common.Hash,
+	ttl uint64,
 ) (*types.Receipt, error) {
 
 	client := w.GethInstance.ETHClient
@@ -33,8 +34,11 @@ func (w *World) DeleteEntity(
 
 	// Create a StorageTransaction with a single Create operation
 	storageTx := &storagetx.StorageTransaction{
-		Delete: []common.Hash{
-			key,
+		Extend: []storagetx.ExtendTTL{
+			{
+				EntityKey:      key,
+				NumberOfBlocks: ttl,
+			},
 		},
 	}
 
@@ -50,7 +54,7 @@ func (w *World) DeleteEntity(
 		Nonce:      nonce,
 		GasTipCap:  big.NewInt(1e9), // 1 Gwei
 		GasFeeCap:  big.NewInt(5e9), // 5 Gwei
-		Gas:        122480,
+		Gas:        2_800_000,
 		To:         &address.GolemBaseStorageProcessorAddress,
 		Value:      big.NewInt(0), // No ETH transfer needed
 		Data:       rlpData,
@@ -59,6 +63,8 @@ func (w *World) DeleteEntity(
 
 	// Use the London signer since we're using a dynamic fee transaction
 	signer := types.LatestSignerForChainID(chainID)
+
+	// return nil, fmt.Errorf("signer: %#v", signer)
 
 	// Create and sign the transaction
 	signedTx, err := types.SignNewTx(w.FundedAccount.PrivateKey, signer, txdata)
