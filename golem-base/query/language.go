@@ -5,7 +5,7 @@ import (
 
 	"github.com/alecthomas/participle/v2"
 	"github.com/alecthomas/participle/v2/lexer"
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/jeffcogswell/golembase-op-geth/common"
 )
 
 // Define the lexer with distinct tokens for each operator and parentheses.

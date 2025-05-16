@@ -19,12 +19,12 @@ package vm
 import (
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/core/tracing"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/jeffcogswell/golembase-op-geth/common"
+	"github.com/jeffcogswell/golembase-op-geth/common/math"
+	"github.com/jeffcogswell/golembase-op-geth/core/tracing"
+	"github.com/jeffcogswell/golembase-op-geth/crypto"
+	"github.com/jeffcogswell/golembase-op-geth/log"
+	"github.com/jeffcogswell/golembase-op-geth/params"
 	"github.com/holiman/uint256"
 )
 

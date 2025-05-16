@@ -22,10 +22,10 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/jeffcogswell/golembase-op-geth/common"
+	"github.com/jeffcogswell/golembase-op-geth/crypto"
+	"github.com/jeffcogswell/golembase-op-geth/params"
+	"github.com/jeffcogswell/golembase-op-geth/rlp"
 )
 
 func TestEIP155Signing(t *testing.T) {

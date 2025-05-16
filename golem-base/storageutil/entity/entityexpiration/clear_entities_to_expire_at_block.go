@@ -1,8 +1,8 @@
 package entityexpiration
 
 import (
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/golem-base/storageutil/keyset"
+	"github.com/jeffcogswell/golembase-op-geth/crypto"
+	"github.com/jeffcogswell/golembase-op-geth/golem-base/storageutil/keyset"
 	"github.com/holiman/uint256"
 )
 

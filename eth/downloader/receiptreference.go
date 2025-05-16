@@ -8,9 +8,9 @@ import (
 	"path"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/jeffcogswell/golembase-op-geth/common"
+	"github.com/jeffcogswell/golembase-op-geth/core/types"
+	"github.com/jeffcogswell/golembase-op-geth/log"
 )
 
 // userDepositNonces is a struct to hold the reference data for user deposits

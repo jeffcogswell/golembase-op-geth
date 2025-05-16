@@ -3,9 +3,9 @@ package catalyst
 import (
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/metrics"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/jeffcogswell/golembase-op-geth/log"
+	"github.com/jeffcogswell/golembase-op-geth/metrics"
+	"github.com/jeffcogswell/golembase-op-geth/params"
 )
 
 var (

@@ -21,7 +21,7 @@ import (
 	"math"
 	"time"
 
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/jeffcogswell/golembase-op-geth/rlp"
 	"github.com/golang/snappy"
 )
 

@@ -4,11 +4,11 @@ import (
 	"log"
 	"os"
 
-	"github.com/ethereum/go-ethereum/cmd/golembase/account"
-	"github.com/ethereum/go-ethereum/cmd/golembase/blocks"
-	"github.com/ethereum/go-ethereum/cmd/golembase/cat"
-	"github.com/ethereum/go-ethereum/cmd/golembase/entity"
-	"github.com/ethereum/go-ethereum/cmd/golembase/query"
+	"github.com/jeffcogswell/golembase-op-geth/cmd/golembase/account"
+	"github.com/jeffcogswell/golembase-op-geth/cmd/golembase/blocks"
+	"github.com/jeffcogswell/golembase-op-geth/cmd/golembase/cat"
+	"github.com/jeffcogswell/golembase-op-geth/cmd/golembase/entity"
+	"github.com/jeffcogswell/golembase-op-geth/cmd/golembase/query"
 	"github.com/urfave/cli/v2"
 )
 

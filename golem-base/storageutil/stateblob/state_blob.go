@@ -4,9 +4,9 @@ import (
 	"encoding/binary"
 	"iter"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/golem-base/address"
-	"github.com/ethereum/go-ethereum/golem-base/storageutil"
+	"github.com/jeffcogswell/golembase-op-geth/common"
+	"github.com/jeffcogswell/golembase-op-geth/golem-base/address"
+	"github.com/jeffcogswell/golembase-op-geth/golem-base/storageutil"
 	"github.com/holiman/uint256"
 )
 

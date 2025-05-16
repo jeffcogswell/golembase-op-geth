@@ -22,15 +22,15 @@ import (
 	"slices"
 	"sync"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/lru"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/jeffcogswell/golembase-op-geth/common"
+	"github.com/jeffcogswell/golembase-op-geth/common/lru"
+	"github.com/jeffcogswell/golembase-op-geth/core"
+	"github.com/jeffcogswell/golembase-op-geth/core/state"
+	"github.com/jeffcogswell/golembase-op-geth/core/types"
+	"github.com/jeffcogswell/golembase-op-geth/event"
+	"github.com/jeffcogswell/golembase-op-geth/log"
+	"github.com/jeffcogswell/golembase-op-geth/params"
+	"github.com/jeffcogswell/golembase-op-geth/rpc"
 )
 
 const sampleNumber = 3 // Number of transactions sampled in a block

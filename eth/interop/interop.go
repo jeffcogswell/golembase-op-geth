@@ -5,8 +5,8 @@ import (
 	"errors"
 	"sync"
 
-	"github.com/ethereum/go-ethereum/core/types/interoptypes"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/jeffcogswell/golembase-op-geth/core/types/interoptypes"
+	"github.com/jeffcogswell/golembase-op-geth/rpc"
 )
 
 type InteropClient struct {

@@ -6,8 +6,8 @@ import (
 	"strings"
 
 	"github.com/adrg/xdg"
-	"github.com/ethereum/go-ethereum/cmd/golembase/account/pkg/useraccount"
-	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/jeffcogswell/golembase-op-geth/cmd/golembase/account/pkg/useraccount"
+	"github.com/jeffcogswell/golembase-op-geth/crypto"
 	"github.com/urfave/cli/v2"
 )
 

@@ -24,12 +24,12 @@ import (
 	"sort"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/eth/protocols/eth"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/jeffcogswell/golembase-op-geth/common"
+	"github.com/jeffcogswell/golembase-op-geth/core/rawdb"
+	"github.com/jeffcogswell/golembase-op-geth/core/types"
+	"github.com/jeffcogswell/golembase-op-geth/eth/protocols/eth"
+	"github.com/jeffcogswell/golembase-op-geth/ethdb"
+	"github.com/jeffcogswell/golembase-op-geth/log"
 )
 
 // scratchHeaders is the number of headers to store in a scratch space to allow

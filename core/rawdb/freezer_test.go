@@ -25,9 +25,9 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/core/rawdb/ancienttest"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/jeffcogswell/golembase-op-geth/core/rawdb/ancienttest"
+	"github.com/jeffcogswell/golembase-op-geth/ethdb"
+	"github.com/jeffcogswell/golembase-op-geth/rlp"
 	"github.com/stretchr/testify/require"
 )
 

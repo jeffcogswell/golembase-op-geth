@@ -28,7 +28,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/ethereum/go-ethereum/rlp/internal/rlpstruct"
+	"github.com/jeffcogswell/golembase-op-geth/rlp/internal/rlpstruct"
 	"github.com/holiman/uint256"
 )
 

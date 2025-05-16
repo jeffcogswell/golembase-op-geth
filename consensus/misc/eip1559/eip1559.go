@@ -23,10 +23,10 @@ import (
 	gomath "math"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus/misc"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/jeffcogswell/golembase-op-geth/common"
+	"github.com/jeffcogswell/golembase-op-geth/consensus/misc"
+	"github.com/jeffcogswell/golembase-op-geth/core/types"
+	"github.com/jeffcogswell/golembase-op-geth/params"
 )
 
 // VerifyEIP1559Header verifies some header attributes which were changed in EIP-1559,

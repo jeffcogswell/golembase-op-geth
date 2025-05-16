@@ -22,12 +22,12 @@ import (
 	"slices"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/internal/testrand"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/jeffcogswell/golembase-op-geth/common"
+	"github.com/jeffcogswell/golembase-op-geth/core/rawdb"
+	"github.com/jeffcogswell/golembase-op-geth/crypto"
+	"github.com/jeffcogswell/golembase-op-geth/ethdb"
+	"github.com/jeffcogswell/golembase-op-geth/internal/testrand"
+	"github.com/jeffcogswell/golembase-op-geth/trie"
 )
 
 type replayer struct {

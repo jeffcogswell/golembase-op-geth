@@ -19,11 +19,11 @@ package vm
 import (
 	"errors"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/core/tracing"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/jeffcogswell/golembase-op-geth/common"
+	"github.com/jeffcogswell/golembase-op-geth/common/math"
+	"github.com/jeffcogswell/golembase-op-geth/core/tracing"
+	"github.com/jeffcogswell/golembase-op-geth/core/types"
+	"github.com/jeffcogswell/golembase-op-geth/params"
 )
 
 func makeGasSStoreFunc(clearingRefund uint64) gasFunc {

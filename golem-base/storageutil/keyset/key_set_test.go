@@ -5,9 +5,9 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/golem-base/storageutil"
-	"github.com/ethereum/go-ethereum/golem-base/storageutil/keyset"
+	"github.com/jeffcogswell/golembase-op-geth/common"
+	"github.com/jeffcogswell/golembase-op-geth/golem-base/storageutil"
+	"github.com/jeffcogswell/golembase-op-geth/golem-base/storageutil/keyset"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

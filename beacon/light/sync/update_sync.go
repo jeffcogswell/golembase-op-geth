@@ -19,12 +19,12 @@ package sync
 import (
 	"sort"
 
-	"github.com/ethereum/go-ethereum/beacon/light"
-	"github.com/ethereum/go-ethereum/beacon/light/request"
-	"github.com/ethereum/go-ethereum/beacon/params"
-	"github.com/ethereum/go-ethereum/beacon/types"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/jeffcogswell/golembase-op-geth/beacon/light"
+	"github.com/jeffcogswell/golembase-op-geth/beacon/light/request"
+	"github.com/jeffcogswell/golembase-op-geth/beacon/params"
+	"github.com/jeffcogswell/golembase-op-geth/beacon/types"
+	"github.com/jeffcogswell/golembase-op-geth/common"
+	"github.com/jeffcogswell/golembase-op-geth/log"
 )
 
 const maxUpdateRequest = 8 // maximum number of updates requested in a single request

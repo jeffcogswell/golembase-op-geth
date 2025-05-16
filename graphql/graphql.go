@@ -27,16 +27,16 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/ethereum/go-ethereum"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/consensus/misc/eip1559"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/eth/filters"
-	"github.com/ethereum/go-ethereum/internal/ethapi"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/jeffcogswell/golembase-op-geth"
+	"github.com/jeffcogswell/golembase-op-geth/common"
+	"github.com/jeffcogswell/golembase-op-geth/common/hexutil"
+	"github.com/jeffcogswell/golembase-op-geth/consensus/misc/eip1559"
+	"github.com/jeffcogswell/golembase-op-geth/core/state"
+	"github.com/jeffcogswell/golembase-op-geth/core/types"
+	"github.com/jeffcogswell/golembase-op-geth/eth/filters"
+	"github.com/jeffcogswell/golembase-op-geth/internal/ethapi"
+	"github.com/jeffcogswell/golembase-op-geth/rlp"
+	"github.com/jeffcogswell/golembase-op-geth/rpc"
 )
 
 var (

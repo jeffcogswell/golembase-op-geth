@@ -26,17 +26,17 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus/ethash"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/bloombits"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/internal/ethapi"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/jeffcogswell/golembase-op-geth/common"
+	"github.com/jeffcogswell/golembase-op-geth/consensus/ethash"
+	"github.com/jeffcogswell/golembase-op-geth/core"
+	"github.com/jeffcogswell/golembase-op-geth/core/bloombits"
+	"github.com/jeffcogswell/golembase-op-geth/core/rawdb"
+	"github.com/jeffcogswell/golembase-op-geth/core/types"
+	"github.com/jeffcogswell/golembase-op-geth/ethdb"
+	"github.com/jeffcogswell/golembase-op-geth/event"
+	"github.com/jeffcogswell/golembase-op-geth/internal/ethapi"
+	"github.com/jeffcogswell/golembase-op-geth/params"
+	"github.com/jeffcogswell/golembase-op-geth/rpc"
 )
 
 type testBackend struct {

@@ -22,7 +22,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/cmd/utils"
+	"github.com/jeffcogswell/golembase-op-geth/cmd/utils"
 	"github.com/urfave/cli/v2"
 )
 

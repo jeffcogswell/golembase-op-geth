@@ -27,17 +27,17 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus/ethash"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/ethdb/pebble"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/triedb"
-	"github.com/ethereum/go-ethereum/triedb/hashdb"
-	"github.com/ethereum/go-ethereum/triedb/pathdb"
+	"github.com/jeffcogswell/golembase-op-geth/common"
+	"github.com/jeffcogswell/golembase-op-geth/consensus/ethash"
+	"github.com/jeffcogswell/golembase-op-geth/core/rawdb"
+	"github.com/jeffcogswell/golembase-op-geth/core/state"
+	"github.com/jeffcogswell/golembase-op-geth/core/types"
+	"github.com/jeffcogswell/golembase-op-geth/core/vm"
+	"github.com/jeffcogswell/golembase-op-geth/ethdb/pebble"
+	"github.com/jeffcogswell/golembase-op-geth/params"
+	"github.com/jeffcogswell/golembase-op-geth/triedb"
+	"github.com/jeffcogswell/golembase-op-geth/triedb/hashdb"
+	"github.com/jeffcogswell/golembase-op-geth/triedb/pathdb"
 )
 
 // rewindTest is a test case for chain rollback upon user request.

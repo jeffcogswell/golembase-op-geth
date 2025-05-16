@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/golem-base/wal"
+	"github.com/jeffcogswell/golembase-op-geth/golem-base/wal"
 )
 
 func (w *World) ReadWAL(ctx context.Context) ([]wal.Operation, error) {

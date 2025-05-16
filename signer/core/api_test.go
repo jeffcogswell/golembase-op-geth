@@ -26,17 +26,17 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/accounts/keystore"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/internal/ethapi"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethereum/go-ethereum/signer/core"
-	"github.com/ethereum/go-ethereum/signer/core/apitypes"
-	"github.com/ethereum/go-ethereum/signer/fourbyte"
-	"github.com/ethereum/go-ethereum/signer/storage"
+	"github.com/jeffcogswell/golembase-op-geth/accounts"
+	"github.com/jeffcogswell/golembase-op-geth/accounts/keystore"
+	"github.com/jeffcogswell/golembase-op-geth/common"
+	"github.com/jeffcogswell/golembase-op-geth/common/hexutil"
+	"github.com/jeffcogswell/golembase-op-geth/core/types"
+	"github.com/jeffcogswell/golembase-op-geth/internal/ethapi"
+	"github.com/jeffcogswell/golembase-op-geth/rlp"
+	"github.com/jeffcogswell/golembase-op-geth/signer/core"
+	"github.com/jeffcogswell/golembase-op-geth/signer/core/apitypes"
+	"github.com/jeffcogswell/golembase-op-geth/signer/fourbyte"
+	"github.com/jeffcogswell/golembase-op-geth/signer/storage"
 )
 
 // Used for testing

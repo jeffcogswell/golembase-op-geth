@@ -5,12 +5,12 @@ package ethconfig
 import (
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/txpool/blobpool"
-	"github.com/ethereum/go-ethereum/core/txpool/legacypool"
-	"github.com/ethereum/go-ethereum/eth/gasprice"
-	"github.com/ethereum/go-ethereum/miner"
+	"github.com/jeffcogswell/golembase-op-geth/common"
+	"github.com/jeffcogswell/golembase-op-geth/core"
+	"github.com/jeffcogswell/golembase-op-geth/core/txpool/blobpool"
+	"github.com/jeffcogswell/golembase-op-geth/core/txpool/legacypool"
+	"github.com/jeffcogswell/golembase-op-geth/eth/gasprice"
+	"github.com/jeffcogswell/golembase-op-geth/miner"
 )
 
 // MarshalTOML marshals as TOML.

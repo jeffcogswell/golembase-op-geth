@@ -4,8 +4,8 @@ import (
 	"slices"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/golem-base/storageutil/stateblob"
+	"github.com/jeffcogswell/golembase-op-geth/common"
+	"github.com/jeffcogswell/golembase-op-geth/golem-base/storageutil/stateblob"
 	"github.com/stretchr/testify/require"
 )
 

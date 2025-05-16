@@ -26,7 +26,7 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/core/vm"
+	"github.com/jeffcogswell/golembase-op-geth/core/vm"
 	"github.com/holiman/uint256"
 )
 

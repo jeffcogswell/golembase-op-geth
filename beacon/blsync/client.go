@@ -17,16 +17,16 @@
 package blsync
 
 import (
-	"github.com/ethereum/go-ethereum/beacon/light"
-	"github.com/ethereum/go-ethereum/beacon/light/api"
-	"github.com/ethereum/go-ethereum/beacon/light/request"
-	"github.com/ethereum/go-ethereum/beacon/light/sync"
-	"github.com/ethereum/go-ethereum/beacon/params"
-	"github.com/ethereum/go-ethereum/beacon/types"
-	"github.com/ethereum/go-ethereum/common/mclock"
-	"github.com/ethereum/go-ethereum/ethdb/memorydb"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/jeffcogswell/golembase-op-geth/beacon/light"
+	"github.com/jeffcogswell/golembase-op-geth/beacon/light/api"
+	"github.com/jeffcogswell/golembase-op-geth/beacon/light/request"
+	"github.com/jeffcogswell/golembase-op-geth/beacon/light/sync"
+	"github.com/jeffcogswell/golembase-op-geth/beacon/params"
+	"github.com/jeffcogswell/golembase-op-geth/beacon/types"
+	"github.com/jeffcogswell/golembase-op-geth/common/mclock"
+	"github.com/jeffcogswell/golembase-op-geth/ethdb/memorydb"
+	"github.com/jeffcogswell/golembase-op-geth/event"
+	"github.com/jeffcogswell/golembase-op-geth/rpc"
 )
 
 type Client struct {

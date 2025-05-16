@@ -3,8 +3,8 @@ package annotationindex
 import (
 	"encoding/binary"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/jeffcogswell/golembase-op-geth/common"
+	"github.com/jeffcogswell/golembase-op-geth/crypto"
 )
 
 var NumericAnnotationIndexSalt = []byte("golemBaseNumericAnnotation")

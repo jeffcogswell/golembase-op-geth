@@ -25,14 +25,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/console/prompt"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/eth"
-	"github.com/ethereum/go-ethereum/eth/ethconfig"
-	"github.com/ethereum/go-ethereum/internal/jsre"
-	"github.com/ethereum/go-ethereum/miner"
-	"github.com/ethereum/go-ethereum/node"
+	"github.com/jeffcogswell/golembase-op-geth/common"
+	"github.com/jeffcogswell/golembase-op-geth/console/prompt"
+	"github.com/jeffcogswell/golembase-op-geth/core"
+	"github.com/jeffcogswell/golembase-op-geth/eth"
+	"github.com/jeffcogswell/golembase-op-geth/eth/ethconfig"
+	"github.com/jeffcogswell/golembase-op-geth/internal/jsre"
+	"github.com/jeffcogswell/golembase-op-geth/miner"
+	"github.com/jeffcogswell/golembase-op-geth/node"
 )
 
 const (

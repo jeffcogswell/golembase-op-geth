@@ -7,9 +7,9 @@ import (
 	"os/signal"
 
 	"github.com/dustin/go-humanize"
-	"github.com/ethereum/go-ethereum/cmd/golembase/account/pkg/useraccount"
-	"github.com/ethereum/go-ethereum/ethclient"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/jeffcogswell/golembase-op-geth/cmd/golembase/account/pkg/useraccount"
+	"github.com/jeffcogswell/golembase-op-geth/ethclient"
+	"github.com/jeffcogswell/golembase-op-geth/params"
 	"github.com/urfave/cli/v2"
 )
 

@@ -19,13 +19,13 @@ package core
 import (
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/consensus/misc/eip4844"
-	"github.com/ethereum/go-ethereum/core/tracing"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/jeffcogswell/golembase-op-geth/common"
+	"github.com/jeffcogswell/golembase-op-geth/consensus"
+	"github.com/jeffcogswell/golembase-op-geth/consensus/misc/eip4844"
+	"github.com/jeffcogswell/golembase-op-geth/core/tracing"
+	"github.com/jeffcogswell/golembase-op-geth/core/types"
+	"github.com/jeffcogswell/golembase-op-geth/core/vm"
+	"github.com/jeffcogswell/golembase-op-geth/params"
 	"github.com/holiman/uint256"
 )
 

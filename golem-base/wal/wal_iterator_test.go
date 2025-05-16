@@ -10,9 +10,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/golem-base/wal"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/jeffcogswell/golembase-op-geth/common"
+	"github.com/jeffcogswell/golembase-op-geth/golem-base/wal"
+	"github.com/jeffcogswell/golembase-op-geth/log"
 	"github.com/stretchr/testify/require"
 )
 

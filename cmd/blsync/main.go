@@ -22,13 +22,13 @@ import (
 	"os"
 	"slices"
 
-	"github.com/ethereum/go-ethereum/beacon/blsync"
-	"github.com/ethereum/go-ethereum/cmd/utils"
-	"github.com/ethereum/go-ethereum/internal/debug"
-	"github.com/ethereum/go-ethereum/internal/flags"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/jeffcogswell/golembase-op-geth/beacon/blsync"
+	"github.com/jeffcogswell/golembase-op-geth/cmd/utils"
+	"github.com/jeffcogswell/golembase-op-geth/internal/debug"
+	"github.com/jeffcogswell/golembase-op-geth/internal/flags"
+	"github.com/jeffcogswell/golembase-op-geth/log"
+	"github.com/jeffcogswell/golembase-op-geth/node"
+	"github.com/jeffcogswell/golembase-op-geth/rpc"
 	"github.com/urfave/cli/v2"
 )
 

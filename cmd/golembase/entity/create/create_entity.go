@@ -6,14 +6,14 @@ import (
 	"os"
 	"os/signal"
 
-	"github.com/ethereum/go-ethereum/accounts/abi/bind"
-	"github.com/ethereum/go-ethereum/cmd/golembase/account/pkg/useraccount"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/ethclient"
-	"github.com/ethereum/go-ethereum/golem-base/address"
-	"github.com/ethereum/go-ethereum/golem-base/storagetx"
-	"github.com/ethereum/go-ethereum/golem-base/storageutil/entity"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/jeffcogswell/golembase-op-geth/accounts/abi/bind"
+	"github.com/jeffcogswell/golembase-op-geth/cmd/golembase/account/pkg/useraccount"
+	"github.com/jeffcogswell/golembase-op-geth/core/types"
+	"github.com/jeffcogswell/golembase-op-geth/ethclient"
+	"github.com/jeffcogswell/golembase-op-geth/golem-base/address"
+	"github.com/jeffcogswell/golembase-op-geth/golem-base/storagetx"
+	"github.com/jeffcogswell/golembase-op-geth/golem-base/storageutil/entity"
+	"github.com/jeffcogswell/golembase-op-geth/rlp"
 	"github.com/urfave/cli/v2"
 )
 

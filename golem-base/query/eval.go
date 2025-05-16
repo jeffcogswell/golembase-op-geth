@@ -1,6 +1,6 @@
 package query
 
-import "github.com/ethereum/go-ethereum/common"
+import "github.com/jeffcogswell/golembase-op-geth/common"
 
 type DataSource interface {
 	GetKeysForStringAnnotation(annotation string, value string) ([]common.Hash, error)

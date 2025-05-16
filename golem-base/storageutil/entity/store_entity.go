@@ -3,13 +3,13 @@ package entity
 import (
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/golem-base/storageutil"
-	"github.com/ethereum/go-ethereum/golem-base/storageutil/entity/allentities"
-	"github.com/ethereum/go-ethereum/golem-base/storageutil/entity/annotationindex"
-	"github.com/ethereum/go-ethereum/golem-base/storageutil/entity/entitiesofowner"
-	"github.com/ethereum/go-ethereum/golem-base/storageutil/entity/entityexpiration"
-	"github.com/ethereum/go-ethereum/golem-base/storageutil/keyset"
+	"github.com/jeffcogswell/golembase-op-geth/common"
+	"github.com/jeffcogswell/golembase-op-geth/golem-base/storageutil"
+	"github.com/jeffcogswell/golembase-op-geth/golem-base/storageutil/entity/allentities"
+	"github.com/jeffcogswell/golembase-op-geth/golem-base/storageutil/entity/annotationindex"
+	"github.com/jeffcogswell/golembase-op-geth/golem-base/storageutil/entity/entitiesofowner"
+	"github.com/jeffcogswell/golembase-op-geth/golem-base/storageutil/entity/entityexpiration"
+	"github.com/jeffcogswell/golembase-op-geth/golem-base/storageutil/keyset"
 )
 
 type StateAccess = storageutil.StateAccess

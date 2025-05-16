@@ -10,10 +10,10 @@ import (
 	"os"
 	"os/signal"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/ethclient"
-	"github.com/ethereum/go-ethereum/golem-base/etl/sqlite/sqlitegolem"
-	"github.com/ethereum/go-ethereum/golem-base/wal"
+	"github.com/jeffcogswell/golembase-op-geth/common"
+	"github.com/jeffcogswell/golembase-op-geth/ethclient"
+	"github.com/jeffcogswell/golembase-op-geth/golem-base/etl/sqlite/sqlitegolem"
+	"github.com/jeffcogswell/golembase-op-geth/golem-base/wal"
 	_ "github.com/mattn/go-sqlite3"
 	"github.com/urfave/cli/v2"
 )

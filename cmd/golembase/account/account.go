@@ -1,10 +1,10 @@
 package account
 
 import (
-	"github.com/ethereum/go-ethereum/cmd/golembase/account/balance"
-	"github.com/ethereum/go-ethereum/cmd/golembase/account/create"
-	"github.com/ethereum/go-ethereum/cmd/golembase/account/fund"
-	"github.com/ethereum/go-ethereum/cmd/golembase/account/importkey"
+	"github.com/jeffcogswell/golembase-op-geth/cmd/golembase/account/balance"
+	"github.com/jeffcogswell/golembase-op-geth/cmd/golembase/account/create"
+	"github.com/jeffcogswell/golembase-op-geth/cmd/golembase/account/fund"
+	"github.com/jeffcogswell/golembase-op-geth/cmd/golembase/account/importkey"
 	"github.com/urfave/cli/v2"
 )
 

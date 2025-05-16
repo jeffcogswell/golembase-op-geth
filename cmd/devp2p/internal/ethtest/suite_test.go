@@ -24,14 +24,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/eth"
-	"github.com/ethereum/go-ethereum/eth/catalyst"
-	"github.com/ethereum/go-ethereum/eth/ethconfig"
-	"github.com/ethereum/go-ethereum/internal/utesting"
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/p2p"
+	"github.com/jeffcogswell/golembase-op-geth/common"
+	"github.com/jeffcogswell/golembase-op-geth/common/hexutil"
+	"github.com/jeffcogswell/golembase-op-geth/eth"
+	"github.com/jeffcogswell/golembase-op-geth/eth/catalyst"
+	"github.com/jeffcogswell/golembase-op-geth/eth/ethconfig"
+	"github.com/jeffcogswell/golembase-op-geth/internal/utesting"
+	"github.com/jeffcogswell/golembase-op-geth/node"
+	"github.com/jeffcogswell/golembase-op-geth/p2p"
 )
 
 func makeJWTSecret(t *testing.T) (string, [32]byte, error) {

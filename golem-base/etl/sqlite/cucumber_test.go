@@ -15,9 +15,9 @@ import (
 	"github.com/cenkalti/backoff/v4"
 	"github.com/cucumber/godog"
 	"github.com/cucumber/godog/colors"
-	"github.com/ethereum/go-ethereum/golem-base/etl/sqlite/etlworld"
-	"github.com/ethereum/go-ethereum/golem-base/etl/sqlite/sqlitegolem"
-	"github.com/ethereum/go-ethereum/golem-base/storageutil/entity"
+	"github.com/jeffcogswell/golembase-op-geth/golem-base/etl/sqlite/etlworld"
+	"github.com/jeffcogswell/golembase-op-geth/golem-base/etl/sqlite/sqlitegolem"
+	"github.com/jeffcogswell/golembase-op-geth/golem-base/storageutil/entity"
 	"github.com/google/go-cmp/cmp"
 	"github.com/spf13/pflag" // godog v0.11.0 and later
 )

@@ -9,7 +9,7 @@ import (
 	"time"
 
 	"github.com/cenkalti/backoff/v4"
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/jeffcogswell/golembase-op-geth/common"
 )
 
 type BlockWal struct {

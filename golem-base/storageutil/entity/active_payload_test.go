@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/golem-base/storageutil/entity"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/jeffcogswell/golembase-op-geth/golem-base/storageutil/entity"
+	"github.com/jeffcogswell/golembase-op-geth/rlp"
 	"github.com/stretchr/testify/require"
 )
 

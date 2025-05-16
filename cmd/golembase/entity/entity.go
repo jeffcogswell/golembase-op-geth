@@ -1,9 +1,9 @@
 package entity
 
 import (
-	"github.com/ethereum/go-ethereum/cmd/golembase/entity/create"
-	"github.com/ethereum/go-ethereum/cmd/golembase/entity/delete"
-	"github.com/ethereum/go-ethereum/cmd/golembase/entity/update"
+	"github.com/jeffcogswell/golembase-op-geth/cmd/golembase/entity/create"
+	"github.com/jeffcogswell/golembase-op-geth/cmd/golembase/entity/delete"
+	"github.com/jeffcogswell/golembase-op-geth/cmd/golembase/entity/update"
 	"github.com/urfave/cli/v2"
 )
 

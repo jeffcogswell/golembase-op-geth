@@ -1,6 +1,6 @@
 package entity
 
-import "github.com/ethereum/go-ethereum/common"
+import "github.com/jeffcogswell/golembase-op-geth/common"
 
 //go:generate go run ../../../rlp/rlpgen -type EntityMetaData -out gen_entity_meta_data_rlp.go
 

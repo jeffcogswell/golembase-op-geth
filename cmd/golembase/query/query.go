@@ -5,8 +5,8 @@ import (
 	"os"
 	"os/signal"
 
-	"github.com/ethereum/go-ethereum/golem-base/golemtype"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/jeffcogswell/golembase-op-geth/golem-base/golemtype"
+	"github.com/jeffcogswell/golembase-op-geth/rpc"
 	"github.com/urfave/cli/v2"
 )
 

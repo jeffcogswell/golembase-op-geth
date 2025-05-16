@@ -14,9 +14,9 @@ import (
 	"github.com/cenkalti/backoff/v4"
 	"github.com/cucumber/godog"
 	"github.com/cucumber/godog/colors"
-	"github.com/ethereum/go-ethereum/golem-base/etl/mongodb/etlworld"
-	"github.com/ethereum/go-ethereum/golem-base/etl/mongodb/mongogolem"
-	"github.com/ethereum/go-ethereum/golem-base/storageutil/entity"
+	"github.com/jeffcogswell/golembase-op-geth/golem-base/etl/mongodb/etlworld"
+	"github.com/jeffcogswell/golembase-op-geth/golem-base/etl/mongodb/mongogolem"
+	"github.com/jeffcogswell/golembase-op-geth/golem-base/storageutil/entity"
 	"github.com/holiman/uint256"
 	"github.com/spf13/pflag" // godog v0.11.0 and later
 	"go.mongodb.org/mongo-driver/bson"

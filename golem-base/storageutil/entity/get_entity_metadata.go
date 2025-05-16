@@ -3,11 +3,11 @@ package entity
 import (
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/golem-base/storageutil/entity/allentities"
-	"github.com/ethereum/go-ethereum/golem-base/storageutil/stateblob"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/jeffcogswell/golembase-op-geth/common"
+	"github.com/jeffcogswell/golembase-op-geth/crypto"
+	"github.com/jeffcogswell/golembase-op-geth/golem-base/storageutil/entity/allentities"
+	"github.com/jeffcogswell/golembase-op-geth/golem-base/storageutil/stateblob"
+	"github.com/jeffcogswell/golembase-op-geth/rlp"
 )
 
 var EntityMetaDataSalt = []byte("golemBaseEntityMetaData")

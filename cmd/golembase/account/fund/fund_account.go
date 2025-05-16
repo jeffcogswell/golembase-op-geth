@@ -6,13 +6,13 @@ import (
 	"os"
 	"os/signal"
 
-	"github.com/ethereum/go-ethereum/accounts/abi/bind"
-	"github.com/ethereum/go-ethereum/cmd/golembase/account/pkg/useraccount"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/ethclient"
-	"github.com/ethereum/go-ethereum/internal/ethapi"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/jeffcogswell/golembase-op-geth/accounts/abi/bind"
+	"github.com/jeffcogswell/golembase-op-geth/cmd/golembase/account/pkg/useraccount"
+	"github.com/jeffcogswell/golembase-op-geth/common"
+	"github.com/jeffcogswell/golembase-op-geth/common/hexutil"
+	"github.com/jeffcogswell/golembase-op-geth/ethclient"
+	"github.com/jeffcogswell/golembase-op-geth/internal/ethapi"
+	"github.com/jeffcogswell/golembase-op-geth/params"
 	"github.com/urfave/cli/v2"
 )
 
